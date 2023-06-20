@@ -1,0 +1,262 @@
+@font-face
+{
+font-family: Digital;
+src: url("XPRSV.ttf");
+}
+@font-face
+{
+font-family: DaysFat;
+src: url("7DAYSFAT.ttf");
+}
+@font-face
+{
+font-family: Nanohard;
+src: url("digitall.ttf");
+}
+
+body
+{
+background-color: #212131;
+color: white;
+margin: 0px;
+}
+.menu 
+{
+width: 100%;
+height: 160px;
+background: linear-gradient(#311131, #215761);
+display: flex;
+}
+
+.menu-buttons
+{
+padding-top: 15px;
+width: 50%;
+height: 145px;
+position: absolute;
+left: 50%;
+display: flex;
+}
+
+#icon
+{
+width: 140px;
+height: 140px;
+}
+
+.menu-button
+{
+top: 15px;
+width: 30%;
+height: 100%;
+margin-left: 0px;
+background: linear-gradient(#311131, #215761);
+color: white;
+transition: 1.5s;
+border: none;
+}
+.menu-button:hover{background: linear-gradient(#311131, #217781);}
+
+.line
+{
+width: 100%;
+height: 5px;
+background: cyan;
+transition: 1s;
+}
+.line:hover { background: #88ffff; }
+.impress
+{
+position: absolute;
+top: 165px;
+width: 100%;
+height: 4200px;
+background: linear-gradient(#215761, #311131);
+}
+
+h1
+{
+font-family: DaysFat;
+font-size: 95px;
+text-align: center;
+transition: 1s;
+}
+h1:hover
+{
+color: #aaffff;
+font-size: 100px;
+}
+
+h2
+{
+font-family: DaysFat;
+position: relative;
+top: -35px;
+font-size: 20px;
+text-align: center;
+transition: 1s;
+}
+h2:hover
+{
+color: #aaffff;
+font-size: 22px;
+}
+
+h3
+{
+font-family: DaysFat;
+position: relative;
+font-size: 20px;
+text-align: center;
+transition: 1s;
+}
+h3:hover
+{
+color: #aaffff;
+font-size: 21px;
+}
+
+h4
+{
+font-family: Nanohard;
+position: relative;
+font-size: 45px;
+text-align: center;
+transition: 1s;
+}
+
+.btn-holder
+{
+width: 100%;
+height: 300px;
+background: #304050;
+}
+
+.buy-button
+{
+width: 94%;
+height: 300px;
+background-color: #315667;
+transition: 1s;
+border-radius: 10px;
+left: 50%;
+position: relative;
+transform: translateX(-50%);
+border-color: #aaffff;
+}
+
+.buy-button:hover{background-color: #4199aa;}
+.buy-btn-text{}
+.buy-btn-text:hover{font-size: 110px;}
+
+a
+{
+font-family: Digital;
+color: white;
+text-decoration: none;
+font-size: 25px;
+}
+
+p
+{
+font-family: Digital;
+font-size: 23px;
+margin: 40px;
+padding: 20px;
+border-radius: 10px;
+text-align: justify;
+background: #112131;
+}
+.clouds { display: flex; }
+.cloud
+{
+transition: 1s;
+width: 500px;
+height: 430px;
+position: relative;
+top: -110%;
+}
+.cloud:hover{ transform: translateY(10%); }
+
+input
+{
+font-family: Digital;
+font-size: 20px;
+color: #aaffff;
+text-align: center;
+background-color: #214145;
+width: 94%;
+height: 50px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+border-radius: 10px;
+margin-bottom: 20px;
+border-inline: none;
+border-color: cyan;
+}
+
+textarea
+{
+font-family: Digital;
+font-size: 20px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+width: 91%;
+height: 600px;
+background: linear-gradient(#215761, #213131);
+color: #aaffff;
+border-radius: 10px;
+padding: 20px;
+resize: none;
+border-color: cyan;
+}
+
+.buy-choices
+{
+width: 100%;
+height: 800px;
+display: flex;
+}
+
+.buy-choice
+{
+width: 30%;
+height: 740px;
+background-color: #213141;
+border-radius: 10px;
+margin: 2%;
+}
+
+.btn-buy-choice
+{
+width: 80%;
+height: 100px;
+background-color: #315667;
+transition: 0.5s;
+border-radius: 10px;
+position: relative;
+border-color: #aaffff;
+color:white;
+position: realtive;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.btn-buy-choice:hover{background-color: #4196a7;}
+
+.checkbox-input
+{
+color: #aaffff;
+background: #112131;
+width: 10%;
+height: 20px;
+position: relative;
+left: 15px;
+top: 5px;
+border-radius: 10px;
+margin-bottom: 20px;
+border-inline: none;
+border-color: cyan;
+}
